@@ -5,7 +5,7 @@ set -e
 KLIPPER_PATH="/usr/share/klipper"
 KLIPPER_SERVICE_NAME=klipper
 SYSTEMDDIR="/etc/systemd/system"
-MOONRAKER_CONFIG_DIR="${HOME}/printer_data/config"
+MOONRAKER_CONFIG_DIR="/usr/data/moonraker/moonraker "
 
 # Fall back to old directory for configuration as default
 if [ ! -d "${MOONRAKER_CONFIG_DIR}" ]; then
