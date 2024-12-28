@@ -2,7 +2,7 @@
 # Force script to exit if an error occurs
 set -e
 
-KLIPPER_PATH="${HOME}/klipper"
+KLIPPER_PATH="/usr/share/klipper"
 KLIPPER_SERVICE_NAME=klipper
 SYSTEMDDIR="/etc/systemd/system"
 MOONRAKER_CONFIG_DIR="${HOME}/printer_data/config"
